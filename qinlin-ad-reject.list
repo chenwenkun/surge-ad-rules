@@ -1,0 +1,46 @@
+# 亲邻开门 App 广告屏蔽规则
+# 更新时间: 2025-12-30
+# 适用于 Surge、Shadowrocket 等代理工具
+
+# 一帆广告平台
+DOMAIN-SUFFIX,yfanads.com
+
+# 百度广告
+DOMAIN,mobads.baidu.com
+
+# 字节跳动穿山甲广告 SDK
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
+
+# 快手广告
+DOMAIN,open.e.kuaishou.cn
+DOMAIN,open.e.kuaishou.com
+DOMAIN,gdfp.gifshow.com
+DOMAIN-SUFFIX,adkwai.com
+DOMAIN,static.yximgs.com
+
+# 腾讯广点通
+DOMAIN,mi.gdt.qq.com
+DOMAIN,sdk.e.qq.com
+DOMAIN,ipv4.gdt.qq.com
+
+# 京东广告
+DOMAIN,dsp-x.jd.com
+DOMAIN,xlog.jd.com
+DOMAIN,janapi.jd.com
+
+# 友盟统计
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN,aspect-upush.umeng.com
+DOMAIN,cnlogs.umeng.com
+
+# 淘宝广告统计
+DOMAIN,adashbc.ut.taobao.com
+
+# 抖音/豆包相关
+DOMAIN,logifier.doubao.com
